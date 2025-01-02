@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from programs.RestAPI.models.response_model import ResponseModel
+from programs.models.response_model import ResponseModel
 
 class ResponseController:
     @staticmethod

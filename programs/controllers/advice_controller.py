@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from programs.RestAPI.models.advice_model import AdviceModel
+from programs.models.advice_model import AdviceModel
 import random
 
 class AdviceController:

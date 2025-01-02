@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from programs.RestAPI.models.question_model import QuestionModel
+from programs.models.question_model import QuestionModel
 
 class QuestionController:
 

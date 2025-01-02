@@ -1,10 +1,10 @@
 # app.py
 from flask import Flask
 from flask_cors import CORS
-from programs.RestAPI.controllers.question_controller import QuestionController
-from programs.RestAPI.controllers.response_controller import ResponseController
-from programs.RestAPI.controllers.prediction_controller import PredictionController
-from programs.RestAPI.controllers.advice_controller import AdviceController  # Importando el controlador de consejos
+from programs.controllers.question_controller import QuestionController
+from programs.controllers.response_controller import ResponseController
+from programs.controllers.prediction_controller import PredictionController
+from programs.controllers.advice_controller import AdviceController  # Importando el controlador de consejos
 
 app = Flask(__name__)
 CORS(app)

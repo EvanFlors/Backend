@@ -1,5 +1,4 @@
-from bson.objectid import ObjectId
-from programs.RestAPI.config.database import dbConnection
+from programs.config.database import dbConnection
 
 db = dbConnection()
 
